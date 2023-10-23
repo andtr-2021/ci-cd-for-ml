@@ -1,5 +1,9 @@
 # CI-CD-Machine-Learning
 
+- Using Continuous Machine Learning to build a CI/CD pipeline for a machine learning application.
+
+Expected Results:
+
 `SDLC`: Software Development Life Cycle
 
 `SDLC Workflow`:
