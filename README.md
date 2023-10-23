@@ -4,6 +4,9 @@
 
 Expected Results:
 
+<img width="599" alt="Screenshot 2023-10-24 at 00 49 57" src="https://github.com/andtr-2021/CI-CD-Machine-Learning/assets/79509067/a6fe0ba2-1a10-4da5-9510-b33592a5dc25">
+
+
 `SDLC`: Software Development Life Cycle
 
 `SDLC Workflow`:
