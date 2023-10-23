@@ -19,3 +19,16 @@
 `Github Actions`: allows to build and automate pipelines directly from the repository.
 
 <img width="958" alt="Screenshot 2023-10-23 at 23 57 23" src="https://github.com/andtr-2021/CI-CD-Machine-Learning/assets/79509067/2a951dd4-8454-4246-9495-9d94f4228ff3">
+
+Github Actions Coomponents:
+
+Events: trigger the workflow to run.
+- Push: when a commit is pushed to the repository.
+- Pull Request: when a pull request is created.
+- Schedule: run the workflow on a schedule.
+- Onpening an issue: when an issue is opened.
+
+Workflow: a set of jobs that are run sequentially or in parallel.
+- Defined as Yaml files.
+- Stored in the .github/workflows directory of the repository.
+Jobs: a set of steps that are run sequentially on the same runner.
