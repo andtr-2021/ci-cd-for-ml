@@ -1,4 +1,4 @@
-# CI-CD-Machine-Learning
+# CI/CD-for-ML
 
 - Using Continuous Machine Learning to build a CI/CD pipeline for a machine learning application.
 
@@ -38,4 +38,22 @@ Events: trigger the workflow to run.
 Workflow: a set of jobs that are run sequentially or in parallel.
 - Defined as Yaml files.
 - Stored in the .github/workflows directory of the repository.
+
 Jobs: a set of steps that are run sequentially on the same runner.
+
+`DVC Remote`
+- DVC remote is a storage location for DVC files.
+- Support different storage types: local, SSH, Amazon S3, Azure, GG Drive. 
+- Set up remote: `dvc remote add` | `dvc remote modify` | `dvc remote remove`
+- For Amazon S3: `dvc remote add myAWSRemote s3://my-bucket/my-path`
+- For local storage: `dvc remote add -d myLocalRemote /path/to/storage`
+
+`DVC Pipeline`
+- DVC pipelines are a set of DVC stages that are run sequentially.
+- Data versions only are not very useful. 
+- Defined in a dvc.yaml file.
+
+
+`DVC for Hyperparameter Tuning`
+- Run `repro` to rerun after changing the hyperparameters.
+- Expected Results:
