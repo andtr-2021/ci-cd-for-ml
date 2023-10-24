@@ -53,7 +53,10 @@ Jobs: a set of steps that are run sequentially on the same runner.
 - Data versions only are not very useful. 
 - Defined in a dvc.yaml file.
 
+<img width="327" alt="Screenshot 2023-10-24 at 10 52 26" src="https://github.com/andtr-2021/ci-cd-for-ml/assets/79509067/615e8b5e-5053-4266-9526-3456d542811e">
 
 `DVC for Hyperparameter Tuning`
 - Run `repro` to rerun after changing the hyperparameters.
 - Expected Results:
+
+<img width="466" alt="Screenshot 2023-10-24 at 11 21 02" src="https://github.com/andtr-2021/ci-cd-for-ml/assets/79509067/2b437ded-3509-4d9b-85ec-d5594b3f4d94">
